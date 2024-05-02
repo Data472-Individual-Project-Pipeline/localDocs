@@ -12,13 +12,15 @@ On an EC2 instance running Ubuntu (https://docs.docker.com/engine/install/ubuntu
 
 Your access key will be used to connect to your account when using AWS CLI and AWS SAM CLI.
 
-1. Go to Access Keys and click create access key,
+1. Generate AWS Access Key and Secret
+This is done under your Security Credentials, the menu is top right where the aws console displays username@uc-research-gdr-poc, if you do not have a page open you can go to it here: <br>
+https://uc-research-gdr-poc.signin.aws.amazon.com/console/
+log in and access your Security Credentials.
+
 you can add a description but the tag may error out, ignore this.
 
 When you access your password (show)... This password will only be shown once.
-
 >You will not be able to recover your password, so do not lose it under any circumstances!
-
 
 2.	Install AWS CLI
 Found here <br>
@@ -28,14 +30,9 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 Found here <br>
 https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html
 
-4.	Generate AWS Access Key and Secret
-This is done under your Security Credentials, the mean is top right under the aws console where it says username@uc-research-gdr-poc, if you do not have a page open you can go to it here: <br>
-https://uc-research-gdr-poc.signin.aws.amazon.com/console/
-
 Here's a guide to using AWS CLI with the hello-world lambda function.
 
-5.	https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html
-
+4.	https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html
 
 This was done under linux
 
