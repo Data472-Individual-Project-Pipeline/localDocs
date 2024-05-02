@@ -36,8 +36,6 @@ Here's a guide to using AWS CLI with the hello-world lambda function.
 
 This was done under linux
 
-note the $ represents the host machine and is not necessary to type out just the actual text after '$ '
-
 ```sam init```
 
 Select 1 (Hello World Example) then Python 3.12 or whatever suits you
@@ -58,6 +56,6 @@ Add python packages to requirements.txt
 
 To deploy to cloud:
 
-$ sam deploy --guided
+```sam deploy --guided```
 
 Use defaults (just press enter.)
