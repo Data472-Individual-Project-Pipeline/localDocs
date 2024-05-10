@@ -8,8 +8,8 @@ Our project, part of the DATA472-data engineering, focuses on developing microse
 
 We will establish the following repositories under our organization:
 
-DataPipelineService: Repository for backend microservices code related to data pipeline services.
-WebFrontendService: Repository for the web frontend service for data visualization.
+* DataPipelineService: Repository for backend microservices code related to data pipeline services.
+* WebFrontendService: Repository for the web frontend service for data visualization.
 
 ## Branch Management
 
