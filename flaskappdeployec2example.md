@@ -34,7 +34,7 @@ pip freeze > requirements.txt
 
 6. Finally, your app folder should be like the following:
 
-![Files structure](./images/aws-files.jpg)
+![Files structure](https://raw.githubusercontent.com/Data472-Individual-Project-Pipeline/flask-web-api-example/main/images/aws-files.jpg)
  
 ```bash
 (venv) ubuntu@ip-10-0-1-217:~/app$ tree -L 2
@@ -75,7 +75,7 @@ WantedBy=multi-user.target
 
 notes: If your EC2 instance image is not ubuntu, you should replace the `ubuntu` with the correct user name.
 
-![Gunicorn Config](./images/services.jpg)
+![Gunicorn Config](https://raw.githubusercontent.com/Data472-Individual-Project-Pipeline/flask-web-api-example/main/images/services.jpg)
 
 1. enable the service by running the following command:
 
@@ -109,7 +109,7 @@ sudo systemctl start nginx
 
 1. enable nginx reverse proxy by updating a file named `default` in the `/etc/nginx/sites-available/` folder. The file finally should be like the following: the IP address `3.25.86.51` is my AWS EC2 instance public IP address, you should replace it with your own IP address.
 
-![Nginx config](./images/nginx.jpg)
+![Nginx config](https://raw.githubusercontent.com/Data472-Individual-Project-Pipeline/flask-web-api-example/main/images/nginx.jpg)
 
 ```bash
 server {
@@ -139,7 +139,7 @@ server {
 sudo systemctl restart nginx
 ```
 
-![Two services](./images/ser2.jpg)
+![Two services](https://raw.githubusercontent.com/Data472-Individual-Project-Pipeline/flask-web-api-example/main/images/ser2.jpg)
 
 My example address: [http://3.25.86.51/](http://3.25.86.51/)
 
@@ -195,7 +195,7 @@ My example address: [http://3.25.86.51/](http://3.25.86.51/)
 
 now you should be able to access the web API by using the public IP address of the EC2 instance. Donot use https, just use http. The AWS EC2 instance I used is called `i-0500e178a5e5e1778 (DATA472-hwa205-flaskwebapiexample)` You can go AWS to access it to check any configuration files I mentioned above.
 
-![My AWS EC2 instance](./images/aws.jpg)
+![My AWS EC2 instance](https://raw.githubusercontent.com/Data472-Individual-Project-Pipeline/flask-web-api-example/main/images/aws.jpg)
 
 ## In the end
 
