@@ -8,7 +8,7 @@ Please flollow the instructions that Paul provided to us to create an AWS EC2 in
 
 `ssh` to your EC2 instance. (If you are not familiar with `ssh`, please just click the `Connect` button on the top right corner of EC2 instance page and select the tab `EC2 Instance Connect` by default, you will be able to connect to the instance without any further setup.)
 
-![AWS connection](./images/aws-conn.jpg)
+![AWS connection](https://raw.githubusercontent.com/Data472-Individual-Project-Pipeline/flask-web-api-example/main/images/aws-conn.jpg)
 
 ### Set flask app environment
 
