@@ -180,6 +180,20 @@ Open a web browser and navigate to:
 http://your-ec2-instance-public-ip:3838/udc_app
 ```
 
+# Troubleshooting.
+If you find your website appears to load but then tells you to reload, 
+find your local R directly (usually /usr/local/lib/R)
+look to see if "httpr" is in the directory if not, do this:
+
+sudo apt update
+apt dist-upgrade -y
+
+sudo su -c "R"
+install.packages("httpr")
+q()
+
+refresh your public ec2 instance and confirm the page loads.
+
 ### **8. Monitor Logs for Errors**
 
 If you encounter any issues, check the Shiny Server logs:
