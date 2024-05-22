@@ -29,7 +29,7 @@ On an EC2 instance running Ubuntu (https://docs.docker.com/engine/install/ubuntu
 >Please read all of the instructions carefully! <br/> If you are unsure do not proceed without asking for assistance.
 >Your access key will be used to connect to your account when using AWS CLI and AWS SAM CLI.
 
-# Generaing AWS Access and Secret Key
+# Generating AWS Access and Secret Key
 This can be achieved by accessing your aws Security Credentials,
 ![Menu popdown](image.png)
 
