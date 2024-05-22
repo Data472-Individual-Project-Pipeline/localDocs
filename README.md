@@ -67,11 +67,11 @@ you can have multiple profiles by using this command
 aws configure profile=profilename
 ```
 How do i change profiles?
-in the target console your AWS CLI and SAM CLI are installed on, assuming the profile has been configured you can export it two ways.
+in the target console your AWS CLI and SAM CLI are installed on, assuming the profile has been configured.
 ```sh
 export AWS_PROFILE=profilename
 ```
-The second way. 
+The second approach to configuring your profile. 
 locate your aws configuration file, typically it is located in
 ├── config <- you are here first
 └── credentials <- edit this second
@@ -91,6 +91,11 @@ Secondly in credentials
 aws_access_key_id = test <- replace with the id from the security credential 
 aws_secret_access_key = test <- replace with the key from the security credential
 ```
+and finally
+```sh
+export AWS_PROFILE=mydodgysetup
+```
+
 >[!IMPORTANT]
 Your id and key must be from the same credential.
 The profile name in both config and credentials need to match (aws configure does this for you.) <br>
