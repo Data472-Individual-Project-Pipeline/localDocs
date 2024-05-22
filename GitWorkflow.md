@@ -31,7 +31,7 @@ Utilize GitHub Issues to track tasks and issues. Each task should have a clear t
 
 Developers should create feature branches from the development branch. Each feature should be implemented and tested on its respective branch. Small feature changes should be encapsulated in a single commit with descriptive commit messages.
 
-###  ]Code Review and Merge
+###  Code Review and Merge
 
 Submit a Pull Request (PR) to merge the feature branch into the development branch. At least one team member should perform code review. Upon approval, the code should be merged into the development branch.
 
